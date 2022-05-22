@@ -25,7 +25,8 @@
         "milon/barcode": "^7.0",
         "point-red/laravel-database-management": "^1.0",
         "spatie/laravel-permission": "^3.9",
-        "xendit/xendit-php": "^2.0"
+        "xendit/xendit-php": "^2.0",
+		"lcobucci/jwt": "3.3.3"
     },
     "require-dev": {
         "facade/ignition": "^2.0",
@@ -76,6 +77,9 @@
     "config": {
         "preferred-install": "dist",
         "sort-packages": true,
-        "optimize-autoloader": true
+        "optimize-autoloader": true,
+        "allow-plugins": {
+            "symfony/thanks": true
+        }
     }
 }

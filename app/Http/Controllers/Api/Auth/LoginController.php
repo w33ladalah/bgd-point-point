@@ -27,6 +27,8 @@ class LoginController extends Controller
             'password' => $request->password,
         ]);
 
+		// dd($attempt);
+
         if (! $attempt) {
             return response()->json([
                 'code' => 401,
